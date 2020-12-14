@@ -4,6 +4,7 @@ import 'package:flutter_picolo_clone/model/rule.dart';
 import 'package:flutter_picolo_clone/services/json_handler_service.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
+import '../globals.dart' as globals;
 
 import 'game_page.dart';
 
@@ -38,7 +39,7 @@ class _ModeSelectionPageState extends State<ModeSelectionPage> {
                 children: <Widget>[
                   SizedBox(height: 30.0),
                   Text(
-                    "CHOISIS LE",
+                    globals.french ? "CHOISIS LE" : "CHOOSE THE",
                     style: TextStyle(
                         fontFamily: "Comix-Loud",
                         color: Colors.white,
@@ -47,7 +48,7 @@ class _ModeSelectionPageState extends State<ModeSelectionPage> {
                   ),
                   SizedBox(height: 25.0),
                   Text(
-                    "MODE DE JEU",
+                    globals.french ? "MODE DE JEU" : "GAME MODE",
                     style: TextStyle(
                         fontFamily: "Comix-Loud",
                         color: Colors.white,
@@ -96,11 +97,11 @@ class _ModeSelectionPageState extends State<ModeSelectionPage> {
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: <Widget>[
-                                        Text("CLASSIQUE",
+                                        Text(globals.french ? "CLASSIQUE" : "CLASSIC",
                                             textAlign: TextAlign.left,
                                             style: TextStyle(fontSize: 20.0)),
                                         Text(
-                                            "Parfait pour les before et faire boire tes potes")
+                                            globals.french ? "Parfait pour les before et faire boire tes potes" : "Perfect for pre-drinks with friends")
                                       ],
                                     ),
                                   ),
@@ -142,7 +143,7 @@ class _ModeSelectionPageState extends State<ModeSelectionPage> {
                                               textAlign: TextAlign.left,
                                               style: TextStyle(fontSize: 20.0)),
                                           Text(
-                                              "Dévoile tes pires secrets... et fais parler les autres !")
+                                              globals.french ? "Dévoile tes pires secrets... et fais parler les autres !" : "Uncover your worst secrets... and make others talk")
                                         ],
                                       ),
                                     ),
@@ -215,7 +216,7 @@ class _ModeSelectionPageState extends State<ModeSelectionPage> {
 
   void onModeSelected(Mode mode) async {
     List<Rule> rules = await Provider.of<JsonHandlerService>(context)
-        .getRulesList(context, mode, 50);
+        .getRulesList(context, mode, 10);  // reduces the value of minimum rules to 10 just for testing in english
     Navigator.of(context).push(
         MaterialPageRoute(builder: (_) => GamePage(widget.players, rules)));
   }

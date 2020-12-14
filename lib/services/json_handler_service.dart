@@ -6,6 +6,7 @@ import 'package:flutter_picolo_clone/model/quote.dart';
 import 'package:flutter_picolo_clone/model/rule.dart';
 import 'package:flutter_picolo_clone/view/mode_selection.dart';
 import 'package:provider/provider.dart';
+import "package:flutter_picolo_clone/globals.dart" as globals;
 
 class JsonHandlerService {
   dynamic _quotesJsonData;
@@ -35,7 +36,7 @@ class JsonHandlerService {
   Future loadRules(BuildContext context) async {
     String rules = await DefaultAssetBundle.of(context)
         .loadString("assets/data/rules.json");
-    _rulesJsonData = json.decode(rules);
+    _rulesJsonData = json.decode(rules)[globals.french ? "FR" : "EN"];
   }
 
   Quote getRandomQuote() {

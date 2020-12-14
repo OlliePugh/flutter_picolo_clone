@@ -5,6 +5,7 @@ import 'package:flutter_picolo_clone/model/rule.dart';
 import 'package:flutter_picolo_clone/services/json_handler_service.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
+import "../globals.dart" as globals;
 
 import 'mode_selection.dart';
 
@@ -57,7 +58,7 @@ class _PlayersSelectionPageState extends State<PlayersSelectionPage> {
                 children: <Widget>[
                   SizedBox(height: 30.0),
                   Text(
-                    "C'EST L'HEURE",
+                    globals.french ? "C'EST L'HEURE" : "IT'S TIME",
                     style: TextStyle(
                         fontFamily: "Comix-Loud",
                         color: Colors.white,
@@ -66,7 +67,7 @@ class _PlayersSelectionPageState extends State<PlayersSelectionPage> {
                   ),
                   SizedBox(height: 25.0),
                   Text(
-                    "DE TRINQUER",
+                    globals.french ? "DE TRINQUER" : "TO DRINK",
                     style: TextStyle(
                         fontFamily: "Comix-Loud",
                         color: Colors.white,
@@ -88,7 +89,9 @@ class _PlayersSelectionPageState extends State<PlayersSelectionPage> {
                   ),
                   SizedBox(height: 20.0),
                   Text(
-                    "Choisis qui va morfler ce soir :",
+                    globals.french
+                        ? "Choisis qui va morfler ce soir :"
+                        : "People playing:",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 20.0,
@@ -138,7 +141,7 @@ class _PlayersSelectionPageState extends State<PlayersSelectionPage> {
                       child: Padding(
                         padding: EdgeInsets.fromLTRB(5.0, 30.0, 5.0, 20.0),
                         child: Text(
-                          "MODE DE JEU",
+                          globals.french ? "MODE DE JEU" : "GAME MODE",
                           style: TextStyle(
                               fontFamily: 'Comix-Loud',
                               color: Colors.blue[300],

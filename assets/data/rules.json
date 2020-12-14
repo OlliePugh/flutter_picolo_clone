@@ -1,629 +1,766 @@
 {
-    "number_of_rules": 101,
-    "rules": [
-        {
-            "id": 0,
-            "rule": "La personne ayant été célibataire le plus longtemps distribue 2 gorgées",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 1,
-            "rule": "Si tu fais des études d'informatique, bois 5 gorgées",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 2,
-            "rule": "Les filles, c'est vous qui servez tout le monde à partir de maintenant",
-            "end_rule": "Les filles ne font plus le service !",
-            "type": "bug",
-            "number_of_players": 0
-        },
-        {
-            "id": 3,
-            "rule": "{{0}} est aveugle d'un oeil, garde un oeil fermé jusqu'à nouvel ordre. Tu prends 3 gorgées à chaque fois que tu le rouvres",
-            "end_rule": "{{0}} n'est plus borgne",
-            "type": "bug",
-            "number_of_players": 1
-        },
-        {
-            "id": 4,
-            "rule": "Les gars, c'est vous qui servez tout le monde à partir de maintenant",
-            "end_rule": "Les garçons ne font plus le service !",
-            "type": "bug",
-            "number_of_players": 0
-        },
-        {
-            "id": 5,
-            "rule": "{{0}}, dis le signe astrologique de {{1}} ou il/elle choisira combien de gorgées tu prends",
-            "type": "game",
-            "number_of_players": 2
-        },
-        {
-            "id": 6,
-            "rule": "Sages comme des images : personne n'a le droit de jurer à partir de maintenant. 2 gorgées par gros mot si t'es un sale gosse",
-            "end_rule": "Vous pouvez maintenant jurer comme des charretiers",
-            "type": "virus",
-            "number_of_players": 0
-        },
-        {
-            "id": 7,
-            "rule": "{{0}}, récite l'alphabet à l'envers, cul sec à la moindre erreur",
-            "type": "shot",
-            "number_of_players": 1
-        },
-        {
-            "id": 8,
-            "rule": "Les deux joueurs ayant les verres les moins remplis les finissent...",
-            "type": "shot",
-            "number_of_players": 0
-        },
-        {
-            "id": 9,
-            "rule": "Le joueur ayant le verre le plus rempli le finit !",
-            "type": "shot",
-            "number_of_players": 0
-        },
-        {
-            "id": 10,
-            "rule": "Bois 3 gorgées si t'as déjà fait tomber ton téléphone dans les toilettes",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 11,
-            "rule": "Le premier joueur à trouver un objet rouge distribue 3 gorgées",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 12,
-            "rule": "En commençant par {{0}}, citez un Jedi de Star Wars. Le premier qui répète ou ne trouve pas boit 5 gorgées",
-            "type": "game",
-            "number_of_players": 1
-        },
-        {
-            "id": 13,
-            "rule": "Bois 2 gorgées si tu pourrais coucher avec quelqu'un présent dans la pièce",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 14,
-            "rule": "Si t'as des chaussettes dépareillées, bois 2 gorgées",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 15,
-            "rule": "Si tu pourrais embrasser quelqu'un du même sexe que toi, bois 3 gorgées",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 16,
-            "rule": "{{0}}, choisis deux personnes qui finiront leur verre",
-            "type": "shot",
-            "number_of_players": 1
-        },
-        {
-            "id": 17,
-            "rule": "{{0}}, si tu la fermes cinq minutes, tu pourras choisir quelqu'un qui finira son verre",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 18,
-            "rule": "{{0}}, bois autant de gorgées que de fois où tu t'es fait larguer",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 19,
-            "rule": "{{0}}, bois autant de gorgées que de fois où t'as largué quelqu'un",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 20,
-            "rule": "{{0}}, bois autant de gorgées que tu as d'exs",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 21,
-            "rule": "{{0}}, distribue 4 gorgées à un joueur plus jeune que toi... Si tu peux pas, bois les",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 22,
-            "rule": "Bois deux gorgées si tu t'es déjà endormi en classe ou au travail... Bois en deux de plus si c'était un lendemain de cuite",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 23,
-            "rule": "Distribue 3 gorgées si tu taffes demain",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 24,
-            "rule": "{{0}}, distribue autant de gorgées que tu pourras citer d'écrivains",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 25,
-            "rule": "{{0}} doit rajouter \"dans mon cul\" à la fin de ses phrases. 2 gorgées à chaque fois qu'il/elle oublie",
-            "end_rule": "{{0}} peut arrêter de parler de son cul",
-            "type": "virus",
-            "number_of_players": 1
-        },
-        {
-            "id": 26,
-            "rule": "{{0}} a interdiction de toucher ses cheveux, 3 gorgées si il/elle le fait",
-            "end_rule": "{{0}} peut à nouveau toucher sa crinière",
-            "type": "virus",
-            "number_of_players": 1
-        },
-        {
-            "id": 27,
-            "rule": "{{0}} et {{1}} sont maintenant mariés ! Vous devez tout faire ensemble, comme par exemple prendre le même nombre de gorgées !",
-            "end_rule": "{{0}} et {{1}} ont divorcé :(",
-            "type": "virus",
-            "number_of_players": 2
-        },
-        {
-            "id": 28,
-            "rule": "Citez des sorts tirés de l'univers d'Harry Potter, le premier qui répète ou ne trouve pas prend 3 gorgées",
-            "type": "game",
-            "number_of_players": 0
-        },
-        {
-            "id": 29,
-            "rule": "Votez tous : qui serait le premier à mourir pendant une apocalypse zombie ? Celui qui reçoit le plus de votes prend 4 gorgées !",
-            "type": "game",
-            "number_of_players": 0
-        },
-        {
-            "id": 30,
-            "rule": "Plutôt chasser toute sa viande ou devenir végan ? Les perdants prennent 5 gorgées",
-            "type": "game",
-            "number_of_players": 0
-        },
-        {
-            "id": 31,
-            "rule": "{{0}}, choisis quelque chose que tu n'aimes pas. Toutes les personnes qui aiment cette chose prennent 2 gorgées. Si tout le monde déteste, tu bois 4 gorgées",
-            "type": "game",
-            "number_of_players": 1
-        },
-        {
-            "id": 32,
-            "rule": "\"Pokémon\", le premier qui répète ou ne trouve pas finit son verre. {{0}} commence",
-            "type": "game",
-            "number_of_players": 1
-        },
-        {
-            "id": 33,
-            "rule": "\"Les alcools\", le premier qui répète ou ne trouve pas prend 3 gorgées. {{0}} commence",
-            "type": "game",
-            "number_of_players": 1
-        },
-        {
-            "id": 34,
-            "rule": "{{0}} doit prendre un accent allemand, 2 gorgées à chaque manquement",
-            "end_rule": "{{0}} n'est plus allemand",
-            "type": "virus",
-            "number_of_players": 1
-        },
-        {
-            "id": 35,
-            "rule": "Tout le monde reçoit 3 balles, chaque balle vaut 3 gorgées. Utilisez les sagement...",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 36,
-            "rule": "{{0}} doit parler comme un vieux, 4 gorgées à chaque fois qu'il/elle oublie",
-            "end_rule": "{{0}} n'est plus vieux",
-            "type": "virus",
-            "number_of_players": 1
-        },
-        {
-            "id": 37,
-            "rule": "{{0}}, montre la dernière photo que tu as prise avec ton téléphone ou prends 6 gorgées",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 38,
-            "rule": "{{0}}, lis le dernier SMS que tu as envoyé ou prends 4 gorgées ",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 39,
-            "rule": "Bois 3 gorgées si t'as déjà menti sur la taille de ton sexe ou celle de ton partenaire",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 40,
-            "rule": "{{0}}, distribue 5 gorgées à la personne que tu trouves la plus belle",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 41,
-            "rule": "{{0}}, à toi de juger : entre {{1}} et {{2}}, qui change le moins souvent de sous-vêtements selon toi ? Dégueulas boira 5 gorgées",
-            "type": "game",
-            "number_of_players": 3
-        },
-        {
-            "id": 42,
-            "rule": "Le joueur qui a fait le plus de célibat entre {{0}} et {{1}} distribue 2 gorgées",
-            "type": "rule",
-            "number_of_players": 2
-        },
-        {
-            "id": 43,
-            "rule": "Le joueur qui a rompu le plus de fois entre {{0}} et {{1}} distribue 5 gorgées",
-            "type": "rule",
-            "number_of_players": 2
-        },
-        {
-            "id": 44,
-            "rule": "Retour vers le futur pour {{0}} ! Tu dois parler au futur sous peine de 5 gorgées !",
-            "end_rule": "{{0}} peut revenir au présent !",
-            "type": "virus",
-            "number_of_players": 1
-        },
-        {
-            "id": 45,
-            "rule": "{{0}}, à toi de juger : si tu te lances dans une carrière de danse classique, qui choisirais-tu en agent artistique entre {{1}} et {{2}} ? Ton futur agent boira 4 gorgées",
-            "type": "game",
-            "number_of_players": 3
-        },
-        {
-            "id": 46,
-            "rule": "Petit tour de table, ceux qui regardent les mêmes séries en ce moment trinquent et boivent 2 gorgées",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 47,
-            "rule": "Les gars boivent autant de fois qu'il y a de meufs bonnes dans le jeu",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 48,
-            "rule": "Cul sec pour {{0}} !",
-            "type": "shot",
-            "number_of_players": 1
-        },
-        {
-            "id": 49,
-            "rule": "{{0}}, si tu as déjà provoqué une bagarre, bois 3 gorgées",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 50,
-            "rule": "{{0}}, bon toutou ! Quand on te donne un ordre habituellement donné à un chien, exécute le ou bois 4 gorgées. On ne peut te donner un ordre que toutes les 30 secondes",
-            "end_rule": "{{0}} n'est plus une petite chienne",
-            "type": "virus",
-            "number_of_players": 1
-        },
-        {
-            "id": 51,
-            "rule": "{{0}}, si tu as déjà menti sur ton âge pour chopper, bois 4 gorgées, sinon distribue les",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 52,
-            "rule": "{{0}}, roi du silence. (tu la fermes)",
-            "end_rule": "{{0}} n'est plus le roi du silence",
-            "type": "virus",
-            "number_of_players": 1
-        },
-        {
-            "id": 53,
-            "rule": "{{0}}, donne une affirmation sur toi, vraie ou fausse. Pour les autres, dites à tour de rôle si c'est vrai ou faux. Les perdants prennent 2 gorgées, {{1}} commence",
-            "type": "game",
-            "number_of_players": 2
-        },
-        {
-            "id": 54,
-            "rule": "Pas de bras pas de chocolat, {{0}} boit une gorgée sans les mains",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 55,
-            "rule": "Si t'as déjà utilisé un stylo 4 couleurs avec les 4 couleurs en même temps, bois 2 gorgées",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 56,
-            "rule": "{{0}}, si t'arrives à offrir (sans forcing) une gorgée de ton verre à un joueur avant la fin du jeu, le receveur devra finir son verre",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 57,
-            "rule": "{{0}} doit rouler les R jusqu'à nouvel orrrrrdrrrrre, 2 gorrrrrrgées si il/elle ne le fait pas",
-            "end_rule": "{{0}} n'a plus à rouler les R !",
-            "type": "virus",
-            "number_of_players": 1
-        },
-        {
-            "id": 58,
-            "rule": "{{0}}, tu roules en Renault ? Si oui, tu peux distribuer 3 gorgées. Sinon bois-les",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 59,
-            "rule": "Distribue 4 gorgées si ta voiture est plus vieille que toi",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 60,
-            "rule": "{{0}}, donne l'âge de {{1}} ou bois 3 gorgées",
-            "type": "rule",
-            "number_of_players": 2
-        },
-        {
-            "id": 61,
-            "rule": "{{0}}, à toi de juger : si tu devais faire un numéro de trapéziste, tu choisirais {{1}} ou {{2}} dans ton équipe ? Cette personne distribuera 3 gorgées",
-            "type": "game",
-            "number_of_players": 3
-        },
-        {
-            "id": 62,
-            "rule": "Le joueur à droite de celui/celle qui vient de lire cette règle distribue 2 gorgées",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 63,
-            "rule": "Plutôt avoir plus d'argent ou plus de temps ? Votez tous en même temps, les minoritaites boivent 5 gorgées !",
-            "type": "game",
-            "number_of_players": 0
-        },
-        {
-            "id": 64,
-            "rule": "Plutôt pouvoir changer de sexe quand on veut ou ne pas avoir à se protéger sexuellement ? Votez tous en même temps, les minoritaires boivent 5 gorgées !",
-            "type": "game",
-            "number_of_players": 0
-        },
-        {
-            "id": 65,
-            "rule": "{{0}}, réponds à une question tabou choisie par {{1}}, ou fais ta poule mouillée et finis ton verre",
-            "type": "rule",
-            "number_of_players": 2
-        },
-        {
-            "id": 66,
-            "rule": "Les synonymes de \"nichon\", le joueur qui répète ou ne trouve pas prend 5 gorgées ! {{0}} commence",
-            "type": "game",
-            "number_of_players": 1
-        },
-        {
-            "id": 67,
-            "rule": "Ceux qui ont râlé pour jouer à ce jeu prennent 2 gorgées. Shame on you !",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 68,
-            "rule": "Quand l'heure affichera un multiple de 10 (21h, 21h10, 21h20...), le premier joueur à crier \"merde j'ai oublié mon chat dans l'espace\" distribuera 10 gorgées",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 69,
-            "rule": "Il est maintenant interdit de toucher la table sous peine de 4 gorgées",
-            "end_rule": "Vous pouvez maintenant retoucher la table",
-            "type": "virus",
-            "number_of_players": 0
-        },
-        {
-            "id": 70,
-            "rule": "{{0}}, par amour, donne 4 gorgées à un joueur que tu aimes beaucoup",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 71,
-            "rule": "{{0}}, si tes pieds sont plus petits que ceux de {{1}}, tu bois 2 gorgées, sinon tu les distribues",
-            "type": "rule",
-            "number_of_players": 2
-        },
-        {
-            "id": 72,
-            "rule": "Bois 2 gorgées si tu t'es déjà fait piquer par un frelon",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 73,
-            "rule": "Les façons crues de dire \"tu me plais\", le joueur qui répète ou ne trouve pas prend 3 gorgées. {{0}} commence",
-            "type": "game",
-            "number_of_players": 1
-        },
-        {
-            "id": 74,
-            "rule": "Plutôt faire une interview avec un journaliste devant tout le pays ou dormir avec une tarentule dans ton lit ? Votez en même temps, les perdants boivent 2 gorgées",
-            "type": "game",
-            "number_of_players": 0
-        },
-        {
-            "id": 75,
-            "rule": "Distribue autant de gorgées qu'il y a de E dans ton prénom",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 76,
-            "rule": "{{0}}, bois 3 gorgées sans les mains ou fini ton verre",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 77,
-            "rule": "{{0}} est le roi des pouces, dès qu'il met son pouce sur son front, tous le monde doit l'imiter. Le dernier bois 4 gorgées",
-            "end_rule": "{{0}} n'est plus le roi des pouces",
-            "type": "virus",
-            "number_of_players": 1
-        },
-        {
-            "id": 78,
-            "rule": "{{0}}, distribue autant de gorgées que tu pourras citer de pays qu'a visités {{1}}",
-            "type": "rule",
-            "number_of_players": 2
-        },
-        {
-            "id": 79,
-            "rule": "Bois autant de gorgées que tu as de lettres dans ton nom de famille",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 80,
-            "rule": "Bois 5 gorgées si tu es allé aux toilettes depuis le début de la soirée, cumulable si plusieurs fois !",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 81,
-            "rule": "Plutôt faire du Prolog sur Eclipse toute sa vie ou redévelopper Eclipse en Prolog ? Votez en même temps, les perdants boivent 3 gorgées",
-            "type": "game",
-            "number_of_players": 0
-        },
-        {
-            "id": 82,
-            "rule": "Une paille (en carton) s'est glissée dans votre verre, retirez là à chaque fois que vous buvez sous peine de 3 gorgées.",
-            "end_rule": "Vous pouvez jeter votre paille dans la (bonne) poubelle !",
-            "type": "virus",
-            "number_of_players": 0
-        },
-        {
-            "id": 83,
-            "rule": "{{0}} si tu as déjà embrassé une personne dans cette pièce, distribue 4 gorgées !",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 84,
-            "rule": "{{0}}, à toi de juger : entre {{1}} et {{2}}, qui fais le plus de fautes d'orthographe ? L'illétré boira 2 gorgées",
-            "type": "game",
-            "number_of_players": 3
-        },
-        {
-            "id": 85,
-            "rule": "Les sports se jouant avec une balle. Le premier qui répète ou ne trouve pas boit 3 gorgées. {{0}} commence",
-            "type": "game",
-            "number_of_players": 1
-        },
-        {
-            "id": 86,
-            "rule": "Si tu as des pièces de monnaie dans les poches bois 2 gorgées",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 87,
-            "rule": "Bois 1 gorgée pour chaque heure que tu as seché depuis le début de la semaine",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 88,
-            "rule": "{{0}} ferme les yeux. {{1}} doit deviner leur couleur en un essai sous peine de 3 gorgées",
-            "type": "game",
-            "number_of_players": 2
-        },
-        {
-            "id": 89,
-            "rule": "{{0}}, tu peux désormais redistribuer autant de gorgées qu'on t'en donne à boire",
-            "end_rule": "{{0}} ne peut plus redistribuer ses gorgées",
-            "type": "virus",
-            "number_of_players": 1
-        },
-        {
-            "id": 90,
-            "rule": "Les différents types de bières vendu au Foy. Le premier qui répète ou ne trouve pas boit 2 gorgées. {{0}} commence",
-            "type": "game",
-            "number_of_players": 1
-        },
-        {
-            "id": 91,
-            "rule": "Bois 1 gorgée pour chaque vêtement rouge que tu portes et distribue en 2 pour chaque vêtement bleu que tu portes",
-            "type": "rule",
-            "number_of_players": 0
-        },
-        {
-            "id": 92,
-            "rule": "{{0}} imite quelqu'un dans la salle en le mimant. La première personne qui trouve qui tu imites distribue 3 gorgées",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 93,
-            "rule": "{{0}} et {{1}} s'affronte au bras de fer chinois. Le perdant bois 2 gorgées",
-            "type": "rule",
-            "number_of_players": 2
-        },
-        {
-            "id": 94,
-            "rule": "{{0}} fait 40 squats ou fini ton verre !",
-            "type": "shot",
-            "number_of_players": 1
-        },
-        {
-            "id": 95,
-            "rule": "Enlevez la dernière lettre du prénom de {{0}}. Tous le monde doit l'appeler ainsi jusqu'a nouvel ordre. 2 gorgées à chaque erreur",
-            "end_rule": "{{0}} à récupérer sa dernière lettre",
-            "type": "virus",
-            "number_of_players": 1
-        },
-        {
-            "id": 96,
-            "rule": "{{0}} donne 5 design pattern. Tu bois 2 gorgées à la première erreur",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 97,
-            "rule": "Faîtes une partie de Squeeze Bang Touch ! La personne qui perd bois 4 gorgées. {{0}} tu commences",
-            "type": "game",
-            "number_of_players": 1
-        },
-        {
-            "id": 98,
-            "rule": "Votez tous ensemble pour la personne la plus alcoolique de cette pièce. Le soiffard boit 3 gorgées",
-            "type": "game",
-            "number_of_players": 0
-        },
-        {
-            "id": 99,
-            "rule": "Toutes les personnes qui ont déjà rencontré les parents de {{0}} distribue 2 gorgées",
-            "type": "rule",
-            "number_of_players": 1
-        },
-        {
-            "id": 100,
-            "rule": "{{0}} et {{1}} doivent jouez au Caps. le gagnant distribue 5 gorgées",
-            "type": "game",
-            "number_of_players": 2
-        }
-    ]
+    "FR": {
+        "number_of_rules": 101,
+        "rules": [
+            {
+                "id": 0,
+                "rule": "La personne ayant été célibataire le plus longtemps distribue 2 gorgées",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 1,
+                "rule": "Si tu fais des études d'informatique, bois 5 gorgées",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 2,
+                "rule": "Les filles, c'est vous qui servez tout le monde à partir de maintenant",
+                "end_rule": "Les filles ne font plus le service !",
+                "type": "bug",
+                "number_of_players": 0
+            },
+            {
+                "id": 3,
+                "rule": "{{0}} est aveugle d'un oeil, garde un oeil fermé jusqu'à nouvel ordre. Tu prends 3 gorgées à chaque fois que tu le rouvres",
+                "end_rule": "{{0}} n'est plus borgne",
+                "type": "bug",
+                "number_of_players": 1
+            },
+            {
+                "id": 4,
+                "rule": "Les gars, c'est vous qui servez tout le monde à partir de maintenant",
+                "end_rule": "Les garçons ne font plus le service !",
+                "type": "bug",
+                "number_of_players": 0
+            },
+            {
+                "id": 5,
+                "rule": "{{0}}, dis le signe astrologique de {{1}} ou il/elle choisira combien de gorgées tu prends",
+                "type": "game",
+                "number_of_players": 2
+            },
+            {
+                "id": 6,
+                "rule": "Sages comme des images : personne n'a le droit de jurer à partir de maintenant. 2 gorgées par gros mot si t'es un sale gosse",
+                "end_rule": "Vous pouvez maintenant jurer comme des charretiers",
+                "type": "virus",
+                "number_of_players": 0
+            },
+            {
+                "id": 7,
+                "rule": "{{0}}, récite l'alphabet à l'envers, cul sec à la moindre erreur",
+                "type": "shot",
+                "number_of_players": 1
+            },
+            {
+                "id": 8,
+                "rule": "Les deux joueurs ayant les verres les moins remplis les finissent...",
+                "type": "shot",
+                "number_of_players": 0
+            },
+            {
+                "id": 9,
+                "rule": "Le joueur ayant le verre le plus rempli le finit !",
+                "type": "shot",
+                "number_of_players": 0
+            },
+            {
+                "id": 10,
+                "rule": "Bois 3 gorgées si t'as déjà fait tomber ton téléphone dans les toilettes",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 11,
+                "rule": "Le premier joueur à trouver un objet rouge distribue 3 gorgées",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 12,
+                "rule": "En commençant par {{0}}, citez un Jedi de Star Wars. Le premier qui répète ou ne trouve pas boit 5 gorgées",
+                "type": "game",
+                "number_of_players": 1
+            },
+            {
+                "id": 13,
+                "rule": "Bois 2 gorgées si tu pourrais coucher avec quelqu'un présent dans la pièce",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 14,
+                "rule": "Si t'as des chaussettes dépareillées, bois 2 gorgées",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 15,
+                "rule": "Si tu pourrais embrasser quelqu'un du même sexe que toi, bois 3 gorgées",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 16,
+                "rule": "{{0}}, choisis deux personnes qui finiront leur verre",
+                "type": "shot",
+                "number_of_players": 1
+            },
+            {
+                "id": 17,
+                "rule": "{{0}}, si tu la fermes cinq minutes, tu pourras choisir quelqu'un qui finira son verre",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 18,
+                "rule": "{{0}}, bois autant de gorgées que de fois où tu t'es fait larguer",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 19,
+                "rule": "{{0}}, bois autant de gorgées que de fois où t'as largué quelqu'un",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 20,
+                "rule": "{{0}}, bois autant de gorgées que tu as d'exs",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 21,
+                "rule": "{{0}}, distribue 4 gorgées à un joueur plus jeune que toi... Si tu peux pas, bois les",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 22,
+                "rule": "Bois deux gorgées si tu t'es déjà endormi en classe ou au travail... Bois en deux de plus si c'était un lendemain de cuite",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 23,
+                "rule": "Distribue 3 gorgées si tu taffes demain",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 24,
+                "rule": "{{0}}, distribue autant de gorgées que tu pourras citer d'écrivains",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 25,
+                "rule": "{{0}} doit rajouter \"dans mon cul\" à la fin de ses phrases. 2 gorgées à chaque fois qu'il/elle oublie",
+                "end_rule": "{{0}} peut arrêter de parler de son cul",
+                "type": "virus",
+                "number_of_players": 1
+            },
+            {
+                "id": 26,
+                "rule": "{{0}} a interdiction de toucher ses cheveux, 3 gorgées si il/elle le fait",
+                "end_rule": "{{0}} peut à nouveau toucher sa crinière",
+                "type": "virus",
+                "number_of_players": 1
+            },
+            {
+                "id": 27,
+                "rule": "{{0}} et {{1}} sont maintenant mariés ! Vous devez tout faire ensemble, comme par exemple prendre le même nombre de gorgées !",
+                "end_rule": "{{0}} et {{1}} ont divorcé :(",
+                "type": "virus",
+                "number_of_players": 2
+            },
+            {
+                "id": 28,
+                "rule": "Citez des sorts tirés de l'univers d'Harry Potter, le premier qui répète ou ne trouve pas prend 3 gorgées",
+                "type": "game",
+                "number_of_players": 0
+            },
+            {
+                "id": 29,
+                "rule": "Votez tous : qui serait le premier à mourir pendant une apocalypse zombie ? Celui qui reçoit le plus de votes prend 4 gorgées !",
+                "type": "game",
+                "number_of_players": 0
+            },
+            {
+                "id": 30,
+                "rule": "Plutôt chasser toute sa viande ou devenir végan ? Les perdants prennent 5 gorgées",
+                "type": "game",
+                "number_of_players": 0
+            },
+            {
+                "id": 31,
+                "rule": "{{0}}, choisis quelque chose que tu n'aimes pas. Toutes les personnes qui aiment cette chose prennent 2 gorgées. Si tout le monde déteste, tu bois 4 gorgées",
+                "type": "game",
+                "number_of_players": 1
+            },
+            {
+                "id": 32,
+                "rule": "\"Pokémon\", le premier qui répète ou ne trouve pas finit son verre. {{0}} commence",
+                "type": "game",
+                "number_of_players": 1
+            },
+            {
+                "id": 33,
+                "rule": "\"Les alcools\", le premier qui répète ou ne trouve pas prend 3 gorgées. {{0}} commence",
+                "type": "game",
+                "number_of_players": 1
+            },
+            {
+                "id": 34,
+                "rule": "{{0}} doit prendre un accent allemand, 2 gorgées à chaque manquement",
+                "end_rule": "{{0}} n'est plus allemand",
+                "type": "virus",
+                "number_of_players": 1
+            },
+            {
+                "id": 35,
+                "rule": "Tout le monde reçoit 3 balles, chaque balle vaut 3 gorgées. Utilisez les sagement...",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 36,
+                "rule": "{{0}} doit parler comme un vieux, 4 gorgées à chaque fois qu'il/elle oublie",
+                "end_rule": "{{0}} n'est plus vieux",
+                "type": "virus",
+                "number_of_players": 1
+            },
+            {
+                "id": 37,
+                "rule": "{{0}}, montre la dernière photo que tu as prise avec ton téléphone ou prends 6 gorgées",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 38,
+                "rule": "{{0}}, lis le dernier SMS que tu as envoyé ou prends 4 gorgées ",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 39,
+                "rule": "Bois 3 gorgées si t'as déjà menti sur la taille de ton sexe ou celle de ton partenaire",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 40,
+                "rule": "{{0}}, distribue 5 gorgées à la personne que tu trouves la plus belle",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 41,
+                "rule": "{{0}}, à toi de juger : entre {{1}} et {{2}}, qui change le moins souvent de sous-vêtements selon toi ? Dégueulas boira 5 gorgées",
+                "type": "game",
+                "number_of_players": 3
+            },
+            {
+                "id": 42,
+                "rule": "Le joueur qui a fait le plus de célibat entre {{0}} et {{1}} distribue 2 gorgées",
+                "type": "rule",
+                "number_of_players": 2
+            },
+            {
+                "id": 43,
+                "rule": "Le joueur qui a rompu le plus de fois entre {{0}} et {{1}} distribue 5 gorgées",
+                "type": "rule",
+                "number_of_players": 2
+            },
+            {
+                "id": 44,
+                "rule": "Retour vers le futur pour {{0}} ! Tu dois parler au futur sous peine de 5 gorgées !",
+                "end_rule": "{{0}} peut revenir au présent !",
+                "type": "virus",
+                "number_of_players": 1
+            },
+            {
+                "id": 45,
+                "rule": "{{0}}, à toi de juger : si tu te lances dans une carrière de danse classique, qui choisirais-tu en agent artistique entre {{1}} et {{2}} ? Ton futur agent boira 4 gorgées",
+                "type": "game",
+                "number_of_players": 3
+            },
+            {
+                "id": 46,
+                "rule": "Petit tour de table, ceux qui regardent les mêmes séries en ce moment trinquent et boivent 2 gorgées",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 47,
+                "rule": "Les gars boivent autant de fois qu'il y a de meufs bonnes dans le jeu",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 48,
+                "rule": "Cul sec pour {{0}} !",
+                "type": "shot",
+                "number_of_players": 1
+            },
+            {
+                "id": 49,
+                "rule": "{{0}}, si tu as déjà provoqué une bagarre, bois 3 gorgées",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 50,
+                "rule": "{{0}}, bon toutou ! Quand on te donne un ordre habituellement donné à un chien, exécute le ou bois 4 gorgées. On ne peut te donner un ordre que toutes les 30 secondes",
+                "end_rule": "{{0}} n'est plus une petite chienne",
+                "type": "virus",
+                "number_of_players": 1
+            },
+            {
+                "id": 51,
+                "rule": "{{0}}, si tu as déjà menti sur ton âge pour chopper, bois 4 gorgées, sinon distribue les",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 52,
+                "rule": "{{0}}, roi du silence. (tu la fermes)",
+                "end_rule": "{{0}} n'est plus le roi du silence",
+                "type": "virus",
+                "number_of_players": 1
+            },
+            {
+                "id": 53,
+                "rule": "{{0}}, donne une affirmation sur toi, vraie ou fausse. Pour les autres, dites à tour de rôle si c'est vrai ou faux. Les perdants prennent 2 gorgées, {{1}} commence",
+                "type": "game",
+                "number_of_players": 2
+            },
+            {
+                "id": 54,
+                "rule": "Pas de bras pas de chocolat, {{0}} boit une gorgée sans les mains",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 55,
+                "rule": "Si t'as déjà utilisé un stylo 4 couleurs avec les 4 couleurs en même temps, bois 2 gorgées",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 56,
+                "rule": "{{0}}, si t'arrives à offrir (sans forcing) une gorgée de ton verre à un joueur avant la fin du jeu, le receveur devra finir son verre",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 57,
+                "rule": "{{0}} doit rouler les R jusqu'à nouvel orrrrrdrrrrre, 2 gorrrrrrgées si il/elle ne le fait pas",
+                "end_rule": "{{0}} n'a plus à rouler les R !",
+                "type": "virus",
+                "number_of_players": 1
+            },
+            {
+                "id": 58,
+                "rule": "{{0}}, tu roules en Renault ? Si oui, tu peux distribuer 3 gorgées. Sinon bois-les",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 59,
+                "rule": "Distribue 4 gorgées si ta voiture est plus vieille que toi",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 60,
+                "rule": "{{0}}, donne l'âge de {{1}} ou bois 3 gorgées",
+                "type": "rule",
+                "number_of_players": 2
+            },
+            {
+                "id": 61,
+                "rule": "{{0}}, à toi de juger : si tu devais faire un numéro de trapéziste, tu choisirais {{1}} ou {{2}} dans ton équipe ? Cette personne distribuera 3 gorgées",
+                "type": "game",
+                "number_of_players": 3
+            },
+            {
+                "id": 62,
+                "rule": "Le joueur à droite de celui/celle qui vient de lire cette règle distribue 2 gorgées",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 63,
+                "rule": "Plutôt avoir plus d'argent ou plus de temps ? Votez tous en même temps, les minoritaites boivent 5 gorgées !",
+                "type": "game",
+                "number_of_players": 0
+            },
+            {
+                "id": 64,
+                "rule": "Plutôt pouvoir changer de sexe quand on veut ou ne pas avoir à se protéger sexuellement ? Votez tous en même temps, les minoritaires boivent 5 gorgées !",
+                "type": "game",
+                "number_of_players": 0
+            },
+            {
+                "id": 65,
+                "rule": "{{0}}, réponds à une question tabou choisie par {{1}}, ou fais ta poule mouillée et finis ton verre",
+                "type": "rule",
+                "number_of_players": 2
+            },
+            {
+                "id": 66,
+                "rule": "Les synonymes de \"nichon\", le joueur qui répète ou ne trouve pas prend 5 gorgées ! {{0}} commence",
+                "type": "game",
+                "number_of_players": 1
+            },
+            {
+                "id": 67,
+                "rule": "Ceux qui ont râlé pour jouer à ce jeu prennent 2 gorgées. Shame on you !",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 68,
+                "rule": "Quand l'heure affichera un multiple de 10 (21h, 21h10, 21h20...), le premier joueur à crier \"merde j'ai oublié mon chat dans l'espace\" distribuera 10 gorgées",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 69,
+                "rule": "Il est maintenant interdit de toucher la table sous peine de 4 gorgées",
+                "end_rule": "Vous pouvez maintenant retoucher la table",
+                "type": "virus",
+                "number_of_players": 0
+            },
+            {
+                "id": 70,
+                "rule": "{{0}}, par amour, donne 4 gorgées à un joueur que tu aimes beaucoup",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 71,
+                "rule": "{{0}}, si tes pieds sont plus petits que ceux de {{1}}, tu bois 2 gorgées, sinon tu les distribues",
+                "type": "rule",
+                "number_of_players": 2
+            },
+            {
+                "id": 72,
+                "rule": "Bois 2 gorgées si tu t'es déjà fait piquer par un frelon",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 73,
+                "rule": "Les façons crues de dire \"tu me plais\", le joueur qui répète ou ne trouve pas prend 3 gorgées. {{0}} commence",
+                "type": "game",
+                "number_of_players": 1
+            },
+            {
+                "id": 74,
+                "rule": "Plutôt faire une interview avec un journaliste devant tout le pays ou dormir avec une tarentule dans ton lit ? Votez en même temps, les perdants boivent 2 gorgées",
+                "type": "game",
+                "number_of_players": 0
+            },
+            {
+                "id": 75,
+                "rule": "Distribue autant de gorgées qu'il y a de E dans ton prénom",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 76,
+                "rule": "{{0}}, bois 3 gorgées sans les mains ou fini ton verre",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 77,
+                "rule": "{{0}} est le roi des pouces, dès qu'il met son pouce sur son front, tous le monde doit l'imiter. Le dernier bois 4 gorgées",
+                "end_rule": "{{0}} n'est plus le roi des pouces",
+                "type": "virus",
+                "number_of_players": 1
+            },
+            {
+                "id": 78,
+                "rule": "{{0}}, distribue autant de gorgées que tu pourras citer de pays qu'a visités {{1}}",
+                "type": "rule",
+                "number_of_players": 2
+            },
+            {
+                "id": 79,
+                "rule": "Bois autant de gorgées que tu as de lettres dans ton nom de famille",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 80,
+                "rule": "Bois 5 gorgées si tu es allé aux toilettes depuis le début de la soirée, cumulable si plusieurs fois !",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 81,
+                "rule": "Plutôt faire du Prolog sur Eclipse toute sa vie ou redévelopper Eclipse en Prolog ? Votez en même temps, les perdants boivent 3 gorgées",
+                "type": "game",
+                "number_of_players": 0
+            },
+            {
+                "id": 82,
+                "rule": "Une paille (en carton) s'est glissée dans votre verre, retirez là à chaque fois que vous buvez sous peine de 3 gorgées.",
+                "end_rule": "Vous pouvez jeter votre paille dans la (bonne) poubelle !",
+                "type": "virus",
+                "number_of_players": 0
+            },
+            {
+                "id": 83,
+                "rule": "{{0}} si tu as déjà embrassé une personne dans cette pièce, distribue 4 gorgées !",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 84,
+                "rule": "{{0}}, à toi de juger : entre {{1}} et {{2}}, qui fais le plus de fautes d'orthographe ? L'illétré boira 2 gorgées",
+                "type": "game",
+                "number_of_players": 3
+            },
+            {
+                "id": 85,
+                "rule": "Les sports se jouant avec une balle. Le premier qui répète ou ne trouve pas boit 3 gorgées. {{0}} commence",
+                "type": "game",
+                "number_of_players": 1
+            },
+            {
+                "id": 86,
+                "rule": "Si tu as des pièces de monnaie dans les poches bois 2 gorgées",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 87,
+                "rule": "Bois 1 gorgée pour chaque heure que tu as seché depuis le début de la semaine",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 88,
+                "rule": "{{0}} ferme les yeux. {{1}} doit deviner leur couleur en un essai sous peine de 3 gorgées",
+                "type": "game",
+                "number_of_players": 2
+            },
+            {
+                "id": 89,
+                "rule": "{{0}}, tu peux désormais redistribuer autant de gorgées qu'on t'en donne à boire",
+                "end_rule": "{{0}} ne peut plus redistribuer ses gorgées",
+                "type": "virus",
+                "number_of_players": 1
+            },
+            {
+                "id": 90,
+                "rule": "Les différents types de bières vendu au Foy. Le premier qui répète ou ne trouve pas boit 2 gorgées. {{0}} commence",
+                "type": "game",
+                "number_of_players": 1
+            },
+            {
+                "id": 91,
+                "rule": "Bois 1 gorgée pour chaque vêtement rouge que tu portes et distribue en 2 pour chaque vêtement bleu que tu portes",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 92,
+                "rule": "{{0}} imite quelqu'un dans la salle en le mimant. La première personne qui trouve qui tu imites distribue 3 gorgées",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 93,
+                "rule": "{{0}} et {{1}} s'affronte au bras de fer chinois. Le perdant bois 2 gorgées",
+                "type": "rule",
+                "number_of_players": 2
+            },
+            {
+                "id": 94,
+                "rule": "{{0}} fait 40 squats ou fini ton verre !",
+                "type": "shot",
+                "number_of_players": 1
+            },
+            {
+                "id": 95,
+                "rule": "Enlevez la dernière lettre du prénom de {{0}}. Tous le monde doit l'appeler ainsi jusqu'a nouvel ordre. 2 gorgées à chaque erreur",
+                "end_rule": "{{0}} à récupérer sa dernière lettre",
+                "type": "virus",
+                "number_of_players": 1
+            },
+            {
+                "id": 96,
+                "rule": "{{0}} donne 5 design pattern. Tu bois 2 gorgées à la première erreur",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 97,
+                "rule": "Faîtes une partie de Squeeze Bang Touch ! La personne qui perd bois 4 gorgées. {{0}} tu commences",
+                "type": "game",
+                "number_of_players": 1
+            },
+            {
+                "id": 98,
+                "rule": "Votez tous ensemble pour la personne la plus alcoolique de cette pièce. Le soiffard boit 3 gorgées",
+                "type": "game",
+                "number_of_players": 0
+            },
+            {
+                "id": 99,
+                "rule": "Toutes les personnes qui ont déjà rencontré les parents de {{0}} distribue 2 gorgées",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 100,
+                "rule": "{{0}} et {{1}} doivent jouez au Caps. le gagnant distribue 5 gorgées",
+                "type": "game",
+                "number_of_players": 2
+            }
+        ]
+    },
+    "EN": {
+        "number_of_rules": 21,
+        "rules": [
+            {
+                "id": 0,
+                "rule": "Longest single person dispenses 2 sips",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 1,
+                "rule": "Person who has the least sex, give out 5 sips",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 2,
+                "rule": "Girls, you are the one serving everyone from now on",
+                "end_rule": "The girls no longer have to serve everyone!",
+                "type": "bug",
+                "number_of_players": 0
+            },
+            {
+                "id": 3,
+                "rule": "{{0}} is blind in one eye, keep one eye closed until further notice. You take 3 sips every time you open it",
+                "end_rule": "{{0}} is no longer one-eyed",
+                "type": "bug",
+                "number_of_players": 1
+            },
+            {
+                "id": 4,
+                "rule": "Guys, you are the one serving everyone from now on",
+                "end_rule": "The boys no longer need to server everyone !",
+                "type": "bug",
+                "number_of_players": 0
+            },
+            {
+                "id": 5,
+                "rule": "{{0}}, say the astrological sign of {{1}} or he / she will choose how many sips you take",
+                "type": "game",
+                "number_of_players": 2
+            },
+            {
+                "id": 6,
+                "rule": "Wise as images: no one has the right to swear from now on. 2 sips per bad word if you're a bad kid",
+                "end_rule": "You can now swear again",
+                "type": "virus",
+                "number_of_players": 0
+            },
+            {
+                "id": 7,
+                "rule": "{{0}}, recite the alphabet backwards, you fail at the slightest mistake",
+                "type": "shot",
+                "number_of_players": 1
+            },
+            {
+                "id": 8,
+                "rule": "The two players with the least filled glasses finish them ...",
+                "type": "shot",
+                "number_of_players": 0
+            },
+            {
+                "id": 9,
+                "rule": "The player with the most filled glass finishes it!",
+                "type": "shot",
+                "number_of_players": 0
+            },
+            {
+                "id": 10,
+                "rule": "Drink 3 sips if you've ever dropped your phone in the toilet",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 11,
+                "rule": "The first player to find a red item gives out 3 sips",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 12,
+                "rule": "Beginning with {{0}}, name a Star Wars Jedi. The first who repeats or does not find drinks 5 sips",
+                "type": "game",
+                "number_of_players": 1
+            },
+            {
+                "id": 13,
+                "rule": "Drink 2 sips if you could sleep with someone in the room",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 14,
+                "rule": "If you have mismatched socks, drink 2 sips",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 15,
+                "rule": "If you could kiss someone of the same sex as you, drink 3 sips",
+                "type": "rule",
+                "number_of_players": 0
+            },
+            {
+                "id": 16,
+                "rule": "{{0}}, choose two people who will finish their drink",
+                "type": "shot",
+                "number_of_players": 1
+            },
+            {
+                "id": 17,
+                "rule": "{{0}}, if you close it for five minutes, you can choose someone to finish their drink ",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 18,
+                "rule": "{{0}}, take as many sips as there are times you got dumped",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 19,
+                "rule": "{{0}}, drink as many sips as you dump someone",
+                "type": "rule",
+                "number_of_players": 1
+            },
+            {
+                "id": 20,
+                "rule": "{{0}}, drink as many sips as you have exs",
+                "type": "rule",
+                "number_of_players": 1
+            }
+        ]
+    }
 }

@@ -7,6 +7,7 @@ import 'package:flutter_picolo_clone/model/display_element.dart';
 import 'package:flutter_picolo_clone/model/player.dart';
 import 'package:flutter_picolo_clone/model/rule.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import "package:flutter_picolo_clone/globals.dart" as globals;
 
 class GamePage extends StatefulWidget {
   final List<Player> players;
@@ -185,7 +186,10 @@ class _GamePageState extends State<GamePage> {
                                       fontFamily: 'Comix-Loud'),
                                   textAlign: TextAlign.center),
                               SizedBox(height: 40.0),
-                              Text("Alors, qui est le plus mort ?",
+                              Text(
+                                  globals.french
+                                      ? "Alors, qui est le plus mort ?"
+                                      : "So who got the most drunk?",
                                   style: TextStyle(
                                       color: Colors.white, fontSize: 30.0),
                                   textAlign: TextAlign.center),
