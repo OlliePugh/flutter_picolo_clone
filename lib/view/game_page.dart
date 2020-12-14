@@ -45,8 +45,12 @@ class _GamePageState extends State<GamePage> {
     Random random = Random();
     for (int i = 0; i < widget.rules.length; i++) {
       if (widget.rules[i].nbPlayers != 0) {
-        List<Player> randomPlayers =
-            getRandomPlayers(widget.rules[i].nbPlayers);
+        List<Player> randomPlayers;
+        try {
+          randomPlayers = getRandomPlayers(widget.rules[i].nbPlayers);
+        } catch (Exception) {  // if there was a problem generating the players for that rule dont add it to the list
+          continue;
+        }
         for (int j = 0; j < widget.rules[i].nbPlayers; j++) {
           widget.rules[i].content = widget.rules[i].content
               .replaceAll("{{${j.toString()}}}", randomPlayers[j].name);
