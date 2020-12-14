@@ -1,3 +1,3 @@
 library picolo_clone.globals;
 
-bool french = false;
+bool french = true;

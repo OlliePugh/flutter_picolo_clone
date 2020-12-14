@@ -216,7 +216,7 @@ class _ModeSelectionPageState extends State<ModeSelectionPage> {
 
   void onModeSelected(Mode mode) async {
     List<Rule> rules = await Provider.of<JsonHandlerService>(context)
-        .getRulesList(context, mode, 10);  // reduces the value of minimum rules to 10 just for testing in english
+        .getRulesList(context, mode, globals.french ?  50 : 15);  // not as many rules in english so lowered to 15 if using the english version
     Navigator.of(context).push(
         MaterialPageRoute(builder: (_) => GamePage(widget.players, rules)));
   }
